@@ -30,15 +30,16 @@ img {
   max-width: 100%;
 }
 
-/* Utility Classes */
+/* Utility Clasess */
+
 .bg-primary {
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   color: #333;
 }
 
 .bg-dark {
   background: var(--dark-color);
-  color: #fff;
+  color: #fff
 }
 
 .bg-dark .bg-primary {
@@ -61,12 +62,12 @@ img {
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0); 
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap;
+  white-space: nowrap; 
   width: 1px;
 }
 
@@ -77,6 +78,7 @@ img {
 }
 
 /* Container */
+
 .container {
   max-width: var(--container-normal);
   margin: 0 auto;
@@ -92,6 +94,7 @@ img {
 }
 
 /* Header */
+
 .header {
   margin: 1.5rem auto;
 }
@@ -120,11 +123,12 @@ img {
 }
 
 .current {
-  background: var(--primary-color);
   font-weight: 600;
+  background: var(--primary-color);
 }
 
 /* Hero */
+
 .hero {
   height: 500px;
   display: flex;
@@ -143,7 +147,7 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 20px
 }
 
 .gallery-item {
@@ -160,6 +164,7 @@ img {
 }
 
 /* Footer */
+
 .footer {
   border-top: 1px solid #aaa;
   padding: 2rem 1.5rem;
@@ -183,10 +188,11 @@ img {
 }
 
 .footer a {
-  margin: 0.2rem;
+  margin: 0.2rem
 }
 
-/* Services */
+/* Serivices */
+
 .services {
   padding: 3rem 0 4rem;
 }
@@ -202,6 +208,7 @@ img {
 }
 
 /* Team */
+
 .team {
   padding: 3rem 0 4rem;
 }
@@ -216,6 +223,7 @@ img {
 }
 
 /* Contact */
+
 .contact {
   padding: 3rem 0 4rem;
 }
@@ -229,8 +237,7 @@ img {
   margin: 2rem 0;
 }
 
-.contact input,
-.contact textarea {
+.contact input, .contact textarea {
   border: none;
   border-bottom: 1px #333 solid;
   width: 100%;
@@ -243,8 +250,7 @@ img {
   height: 200px;
 }
 
-.contact input:focus,
-.contact textarea:focus {
+.contact input:focus, .contact textarea:focus {
   outline: 0;
 }
 
@@ -253,11 +259,12 @@ img {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+
+@media(max-width: 768px) {
   .header .header-flex,
   .footer .footer-flex,
   .services .services-flex,
-  .team .team-flex {
+  .team .team-flex{
     flex-direction: column;
     gap: 1.5rem;
   }
